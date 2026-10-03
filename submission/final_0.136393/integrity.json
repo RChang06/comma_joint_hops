@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "checks": 13,
+  "archive_bytes": 179891,
+  "archive_sha256": "0e2d95c29e87dca3f9ed14bbc842e57011090ce1e0ac0703c0bb8df3fc70c7e1",
+  "canonical_fields_equal": true,
+  "fields": {
+    "semantic_blob": {
+      "bytes": 36130,
+      "sha256": "17e0fd0b197ac147afe98397ef38f02f7915b69372d03c042e6be6fa0f992e50"
+    },
+    "carrier_blob": {
+      "bytes": 22316,
+      "sha256": "89aab077cead53136f8f5f556bb3f9d1977fb8796d53b53f639f478fab0d0d82"
+    },
+    "hpac_blob": {
+      "bytes": 17952,
+      "sha256": "e8c0cfd73d3275adeff2897ea83efa9d045855c43fb3bb66ac037e5c84f2e6dd"
+    },
+    "token_stream": {
+      "bytes": 113411,
+      "sha256": "5601d6fd792c60c176e7cb7478e6033c4ed9a7e87404582340ed3f50ed60cfe3"
+    },
+    "residual_payload": {
+      "bytes": 100,
+      "sha256": "74775aab04c7615cacabfddfa185efa05429cc0d8e21fd1a1d84f37bbc79d750"
+    },
+    "compensation_blob": null
+  },
+  "model_bytes": 71739,
+  "entropy_tail_bytes": 113507
+}

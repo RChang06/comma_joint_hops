@@ -1,0 +1,4 @@
+__pycache__/
+*.u8
+*.raw
+*.tgz

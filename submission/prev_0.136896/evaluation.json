@@ -1,0 +1,34 @@
+{
+  "status": "full_local_evaluation",
+  "samples": 600,
+  "archive_bytes": 179891,
+  "original_bytes": 37545489,
+  "posenet_distortion": 6.370161372615257e-06,
+  "segnet_distortion": 0.00020133973157498986,
+  "rate": 0.004791281317444021,
+  "score": 0.14789733516375772,
+  "terms": {
+    "segmentation": 0.020133973157498986,
+    "pose": 0.007981329070158213,
+    "rate": 0.11978203293610053
+  },
+  "evaluator_commit": "db52c5a9f05d5298e314fb0fa130290c4a350c4e",
+  "archive_sha256": "0e2d95c29e87dca3f9ed14bbc842e57011090ce1e0ac0703c0bb8df3fc70c7e1",
+  "raw_sha256": "8329ebd1287670bec2aac504ebdf8b3f8b009b3d9eee75172e7392b86669e548",
+  "evaluator_files": {
+    "evaluate.py": "bbf9bb16322a129a2924be2c0a13bdd2a461205da7178e0ed77e009c78984d58",
+    "frame_utils.py": "5ebd50a76c54b54ce89aefe31fa760eab6b6d1597503d882a627c84cfec81470",
+    "modules.py": "99365645e71ce9f418f6587e984aef5702bab5d957d9cac2ee33f4db00b5e195",
+    "uv.lock": "1ec507c6bff1f573d28916b15a473991816d44ae6b00255ed8fae19c7341ee30"
+  },
+  "input_files": {
+    "models/posenet.safetensors": "0f3a0874c5c387f990d7b88bd1d7e1f6de35d98b45f2a289989db2c77b9b6576",
+    "models/segnet.safetensors": "68956e328d4c5d875389a1a444870e6bac1c052c9986123827af95c07c6991b6",
+    "videos/0.mkv": "2611f5f3e186f3529777749f97bd4cce3a208d6b3559e137bd45d256980d2fa9"
+  },
+  "torch": "2.9.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "numeric_policy": "IEEE / TF32 disabled",
+  "dali_disable_nvml": "1",
+  "elapsed_seconds": 47.98153653300005
+}

@@ -1,0 +1,48 @@
+{
+  "blocks": [
+    {
+      "start": 0,
+      "end": 13288,
+      "codec": "raw",
+      "kind": "identity",
+      "params": {},
+      "stored_bytes": 13288,
+      "cost": 13292
+    },
+    {
+      "start": 13288,
+      "end": 20811,
+      "codec": "brotli",
+      "kind": "transpose:2",
+      "params": {
+        "quality": 10,
+        "lgwin": 18,
+        "mode": 0
+      },
+      "stored_bytes": 5914,
+      "cost": 5920
+    },
+    {
+      "start": 20811,
+      "end": 49923,
+      "codec": "brotli",
+      "kind": "identity",
+      "params": {
+        "quality": 11,
+        "lgwin": 18,
+        "mode": 0
+      },
+      "stored_bytes": 25239,
+      "cost": 25243
+    },
+    {
+      "start": 49923,
+      "end": 71739,
+      "codec": "raw",
+      "kind": "identity",
+      "params": {},
+      "stored_bytes": 21816,
+      "cost": 21820
+    }
+  ]
+}
