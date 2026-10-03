@@ -1,0 +1,48 @@
+{
+ "rx1_header": [
+  1,
+  2,
+  0,
+  24
+ ],
+ "blocks": [
+  {
+   "start": 0,
+   "end": 13276,
+   "codec": 0,
+   "stride": 0,
+   "params": null
+  },
+  {
+   "start": 13276,
+   "end": 20827,
+   "codec": 2,
+   "stride": 2,
+   "params": {
+    "quality": 10,
+    "lgwin": 16,
+    "mode": 0
+   }
+  },
+  {
+   "start": 20827,
+   "end": 72555,
+   "codec": 2,
+   "stride": 0,
+   "params": {
+    "quality": 11,
+    "lgwin": 16,
+    "mode": 0
+   }
+  }
+ ],
+ "archive_bytes": 177106,
+ "archive_sha256": "95a9fca6c79b397a36c7f8ea4f5d922ed604d0a9749dd7eb626c2ee4ce6348ae",
+ "pieces_sha256": {
+  "hpac.sec": "b4b82216f580feea2ba993c4ca1135869c67c2b4c20b716f8e3ffdfc4b226c48",
+  "renderer.sec": "56324bf986d2b0ebbe6c82c62be729a2cca29b0bee0d089443288285d01aabcb",
+  "carrier.sec": "579f2d1e820d7d17a50156264966dc917e922920f6803b9827867c37750fd9fe",
+  "table.bin": "8ab2fe748ab7d69d2102ba2292289e22bd7ea503f8ae29938e0854ec46ca3da1",
+  "stream.bin": "e4b110ff1d2ae05e898d7d900d0ec07be93e36e82a4d11ad217a4c16ab656ba1"
+ }
+}

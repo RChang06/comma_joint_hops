@@ -10,3 +10,5 @@ Verified score 0.136393 (#141: 0.147897).
 - `states/`: final carrier / hpac / table states (class maps not included, too large)
 
 The decoder in `submission/` is #141's (built on #140 and #135) with small constant changes.
+
+- `pieces/`: the archive split into its stored sections plus the block plan; `submission/.../compress.sh pieces/` rebuilds archive.zip exactly
